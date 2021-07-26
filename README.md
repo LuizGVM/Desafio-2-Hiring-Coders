@@ -25,6 +25,6 @@ A classe conta com uma operação de addToCart() e uma de clearCart() que adicio
 
 Em seguida o usuário pode finalizar seu carrinho clicando no botão "Finalizar Carrinho" (que limpa todos os dados da tela e envia a classe atualizada para o localStorage) ou limpar seu carrinho pelo botçao "Limpar carrinho", que remove todos os itens armazenados para aquela classe 
 
-Veja o projeto online [clique aqui]()
+Veja o projeto online [clique aqui](https://simulador-sistema-inventario.netlify.app/)
 
 ## Luiz Guilherme de Vasconcelos Moreira
