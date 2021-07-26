@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Desafio 2 - Página de Entrada | Hiring Coders</title>
+        <meta charset="UTF-8"/>
+        <meta name="description" content="Desafio Front-end"/>
+        <meta name="author" content="Luiz Guilherme"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" type="text/css" href="./src/CSS/entrystyles.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600;800&display=swap" rel="stylesheet"> 
+    </head>
+
+    <body>
+        <section class="forms-container" id="section-one">
+            <div class="cadastro-content" id="cadastro-content">
+                <form action="" id="form-one">
+                    <h3 id ="cadastro">Cadastre-se</h3>
+                    <input type="text" name="nomeCadastro" id='inputNomeCadastro' placeholder="digite seu nome"/>
+                    <br><br>
+                    <input type="text" name="cpfCadastro" id='inputCpfCadastro' placeholder="digite seu CPF"/>
+                    <br><br>
+                    <input type="text" name="emailCadastro" id='inputEmailCadastro' placeholder="digite seu email"/>
+                    <br><br>
+                    <input type="text" name="enderecoCadastro" id='inputEnderecoCadastro' placeholder="digite seu endereço"/>
+                    <br><br>
+                    <input type="text" name="senhaCadastro" id='inputSenhaCadastro' placeholder="digite sua senha"/>
+                    <br><br>
+                    <input type="submit" value="Cadastrar" inputButton/>
+                </form>
+                <div id="cadastro-msg"></div>
+            </div>
+            <div class="login-content" id="login-content">
+                <form action="" id="form-two">
+                    <h3 id ="login">Faça seu login</h3>
+                    <input type="text" name="cpfEntrada" id='inputCpfEntrada' placeholder="digite seu CPF"/>
+                    <br><br>
+                    <input type="text" name="senhaEntrada" id='inputSenhaEntrada' placeholder="digite sua senha"/>
+                    <br><br>
+                    <input type="submit" value="Entrar" inputButton/>
+               </form>
+               <div id="login-msg"></div>
+            </div>
+        </section> 
+    </body>
+    <script type="text/javascript" src="./src/JS/cadastro.js"></script>
+</html>
